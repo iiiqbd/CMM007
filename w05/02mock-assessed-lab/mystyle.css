@@ -1,5 +1,5 @@
 body {
-    background-color: cornflowerblue;
+    background-color: white;
 }
 main {
     max-width: 960px;
@@ -8,8 +8,6 @@ main {
     height: 400px;
     background-color: white;
     display: flex;
-    display: -webkit-flex /*Safari */
-flex-direction: XXXXXXX
 }
 .container{
     background-color: gold;
