@@ -10,7 +10,7 @@
 <p>
     <?php
 
-    $wantedgood = "mugs";
+    $wantedgood = "specs";
 
       echo "You have to be 18 to buy";
 
