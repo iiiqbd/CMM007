@@ -9,6 +9,9 @@
 <html>
 <head>
   <title>
+    PHP Practice
+  </title>
+</head>
 <body>
   <p>
     <?php
