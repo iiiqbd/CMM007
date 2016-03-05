@@ -9,8 +9,8 @@
 <html>
 <head>
   <title>
-PHP Practice
-</title>
+    PHP Practice
+  </title>
 </head>
 
 <body>
@@ -32,8 +32,7 @@ PHP Practice
       else {
           print " nothing, because you are under-aged!";
       }
-
     ?>
-</p>
+  </p>
 </body>
 </html>
