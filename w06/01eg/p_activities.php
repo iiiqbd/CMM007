@@ -9,11 +9,7 @@
 <body>
 <p>
     <?php
-    $provisionedActivity = array("Specs", "Drugs", "Rock and Roll");
-
-    foreach ($provisionedActivity as $x) {
-        print "<p>$x</p>";
-    }
+    $provisionedActivity = array("Specs", "Drugs", "Rock and Roll", "Sausage Rolls");
 
     $wantedgood = "mugs";
 
@@ -26,7 +22,7 @@
             break;
 
         case "mugs":
-            echo " Mugs!";
+            echo " Hugs!";
             break;
 
         case "sausage rolls":
@@ -36,6 +32,13 @@
         default:
             echo " invalid product!";
     }
+
+    foreach ($provisionedActivity as $x) {
+        print "<p>$x</p>";
+    }
+
+    print "<p>unset($provisionedActivity[3])</p>";
+
 
     ?>
 </p>
