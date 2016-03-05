@@ -6,6 +6,6 @@
  * Time: 19:32
  */
 
-echo "Hello,"." " . "world" . "!";
+echo "Hello,"." "."world"."!";
 
 ?>
