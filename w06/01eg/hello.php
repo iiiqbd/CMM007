@@ -6,6 +6,10 @@
  * Time: 19:32
  */
 
-echo "Hello,"." "."world"."!";
+echo "Hello," . " " . "world" . "!";
+
+/* echo "Hello,"." "."world"."!";
+   seemed to work fine???
+*/
 
 ?>
