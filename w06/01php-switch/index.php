@@ -9,7 +9,7 @@
 <html>
 <head>
   <title>
-PHP Pracitce
+PHP Practice
 </title>
 </head>
 
