@@ -1,9 +1,4 @@
-/**
- * Created by PhpStorm.
- * User: Uche
- * Date: 005, 05 Mar 2016
- * Time: 17:57
- */
+
 
 <!DOCTYPE html>
 <html>
@@ -16,6 +11,12 @@
 <body>
   <p>
     <?php
+    /**
+     * Created by PhpStorm.
+     * User: Uche
+     * Date: 005, 05 Mar 2016
+     * Time: 17:57
+     */
       $myage = 15;
       $myname = "Sam";
 
