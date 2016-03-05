@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        PHP Pracitce
+        Wanted Good
     </title>
 </head>
 
@@ -10,7 +10,7 @@
 <p>
     <?php
 
-    $wantedgood = "sausage rolls";
+    $wantedgood = "mugs";
 
       echo "You have to be 18 to buy";
 

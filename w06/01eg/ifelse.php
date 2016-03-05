@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>
-    PHP Practice
+    If...else
   </title>
 </head>
 <body>

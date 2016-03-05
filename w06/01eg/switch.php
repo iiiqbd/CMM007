@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>
-    PHP Pracitce
+    PHP Switch Practice
   </title>
 </head>
 
