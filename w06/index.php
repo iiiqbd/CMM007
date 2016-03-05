@@ -1,4 +1,4 @@
-/**
+/*
  * Created by PhpStorm.
  * User: Uche
  * Date: 005, 05 Mar 2016
@@ -19,7 +19,7 @@ PHP Pracitce
       $myage = 15;
       $myname = "Sam";
 
-      echo "Your name is" . $myname . "you can buy";
+      echo "Your name is" . $myname . " you can buy";
       if ($myage > 16) {
           print " Specs!";
       }
