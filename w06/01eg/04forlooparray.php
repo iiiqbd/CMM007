@@ -29,8 +29,8 @@
 <!--    </p>-->
 
     Welcome <?php echo $_POST["name"]; ?><br>
-    Your email address is: <?php echo $_POST["email"]; ?>
-    Your comment is: <?php echo $_POST["comments"]; ?>
+    Your email address is: <?php echo $_GET["email"]; ?>
+    Your comment is: <?php echo $_GET["comments"]; ?>
 </body>
 
 </html>
