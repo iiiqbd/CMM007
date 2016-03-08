@@ -16,7 +16,7 @@
  */
 
 
-for ($i = 1; $i < 30; $i++)
+for ($i = 1; $i <= 30; $i++)
 {
     $y = 0; //I'm using this as a marker to tell that at least one thing is being made
     echo "<p>On day " . $i . " the following products are available: ";
