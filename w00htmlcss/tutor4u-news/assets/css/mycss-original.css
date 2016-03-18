@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* following forces named elements to display in block-style when older browsers are in use
+see script tag in head section of main html file for IE8 and earlier*/
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+/* removes all default margins and paddings */
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+}
+
+/* adds a background colour to the header element */
+#banner {
+    background-color: #11233b;
+    color: white;
+    padding: 10px 20px; /* top & bttm-10px; left & right-20px */
+}
+
+/* formats the  main body of the webpage */
+body {
+    border: 5px solid red;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* formats the nav section */
+nav {
+    background-color: #20416c;
+    padding: 5px;
+    margin: 1px;
+}
+
+/* sets the colour of linked text within the nav section */
+li a {
+    color: white;
+}
+
+/* formats the contents and behaviour of the links */
+li {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+/* formats the section containing the articles */
+section {
+    background-color: #bbbbbb;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* formats the contents and behaviour of the articles */
+article {
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px 15px;
+}
+
+/* formats the primary container within the body of the page */
+main {
+    width: 640px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* formats the contents and behaviour of the sidebar */
+aside {
+    background-color: #bbbbbb;
+    width: 270px;
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* formats the contents and behaviour of the footer */
+footer{
+    clear: both;
+    background-color: #20416c;
+    color: white;
+    padding: 5px 20px;
+}
