@@ -1,0 +1,27 @@
+body {
+    background-color: cornflowerblue;
+}
+main {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid;
+
+}
+
+#cont1 {
+    background-color: gold;
+
+}
+
+#cont2 {
+    background-color: silver;
+
+}
+
+#cont3 {
+    background-color: saddlebrown;
+
+}

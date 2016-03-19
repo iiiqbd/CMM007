@@ -1,0 +1,65 @@
+header {
+    /* colour*/
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: darkorchid;
+    border-width: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#hasMaxWidth {
+    max-width: 1000px;
+    background-color: burlywood;
+}
+
+#noMaxWidth {
+    max-width: 1000px;
+    background-color: gold;
+}
+
+#standardText{
+    background-color: aqua;
+}
+
+#positionedText {
+    background-color: yellowgreen;
+    position: absolute;
+    left: 50px;
+}
+
+#relPositionedText {
+    background-color: green;
+    position: relative;
+    left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: inline /* seems better!*/
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
