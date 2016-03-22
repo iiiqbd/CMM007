@@ -13,7 +13,7 @@
 
 <?php  $sql = "SELECT * FROM users"; // displays all the users of the site
         $result = mysqli_query($db, $sql);
-        while($row = mysqli_fetch_array_assoc($result)) {
+        while($row = mysqli_fetch_assoc($result)) {
             $username = $row['username'];
             echo "<p>" . $username . "</p>";
         }
