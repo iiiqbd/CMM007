@@ -20,7 +20,7 @@ if(empty($_POST["username"]) || empty($_POST["password"]) )
 
     if (mysqli_num_rows($result) == 1)
     {
-        header("location: home.html"); // redirect to homepage
+        header("location: home.php"); // redirect to homepage
     } else {
         echo "Incorrect Username or Password.";
     }
