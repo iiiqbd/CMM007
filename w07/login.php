@@ -1,5 +1,5 @@
 <?php
-include("dbconnect.php");
+include("dbconnect.php"); //establishes connection with our database
 /**
  * Created by PhpStorm.
  * User: 0303077
