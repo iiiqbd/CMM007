@@ -15,7 +15,8 @@
         $result = mysqli_query($db, $sql);
         while($row = mysqli_fetch_assoc($result)) {
             $username = $row['username'];
-            echo "<p>" . $username . "</p>";
+            //echo "<p>" . $username . "</p>";
+            print_r($row);
         }
 
 /*
