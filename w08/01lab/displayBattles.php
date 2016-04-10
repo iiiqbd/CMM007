@@ -26,9 +26,9 @@ else {
     $result = $db->query($sql_query);
     while($row = $result->fetch_array())
     {
-        $firstname = $row['firstname'];
-        $lastname = $row['lastname'];
-        $mainSuperpower = $row['mainSuperPower'];
+        $firstname = $row['firstName'];
+        $lastname = $row['lastName'];
+        $mainSuperpower = $row['mainSuperpower'];
         $villanFought = $row['villanFought'];
         echo "<article>
             <p> The superhero known as <strong>{$firstname} {$lastname}</strong> recently fought <strong>{$villanFought}</strong> using <strong>{$mainSuperpower}</strong> </p>
