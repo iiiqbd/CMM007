@@ -6,20 +6,18 @@
  * Time: 09:11
  */
 
-session_start();
-$accesslevel = $_SESSION['access_level_session'];
+$username = $_POST['name'];
+$password = $_POST['password'];
 
-displayAccessLevelInformation($accesslevel);
-
-function displayAccessLevelInformation($accesslevel)
+if ($username == "user" && $password == "pass");
 {
-    if($accesslevel == "standarduser") {
-        echo "<p style = \"background-color: lightgreen\">You are currently logged in as a standard user</p>";
-    }
-    elseif ($accesslevel == "root") {
-        echo "<p style = \"background-color: red\">You are currently logged in as a root user</p>";
-        echo "<p style = \"background-color: red\">You now have access to additional admin. features.</p>";
-    }
+    session_start();
+    $_SESSION['access_level_session'] = 'standarduser';
 }
 
+header('location: loggedin_s.php');
+
 ?>
+
+
+
