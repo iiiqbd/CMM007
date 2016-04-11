@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loggedin with session</title>
+</head>
+<body>
+
 <?php
 /**
  * Created by PhpStorm.
@@ -23,3 +31,8 @@ function displayAccessLevelInformation($accesslevel)
 }
 
 ?>
+
+
+
+</body>
+</html>
