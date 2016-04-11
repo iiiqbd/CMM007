@@ -9,9 +9,9 @@
 session_start();
 $accesslevel = $_SESSION['access_level_session'];
 
-displayAccessLevelInfrmation($accesslevel);
+displayAccessLevelInformation($accesslevel);
 
-function displayAccessLevelInfrmation($accesslevel)
+function displayAccessLevelInformation($accesslevel)
 {
     if($accesslevel == "standarduser") {
         echo "<p style = \"background-color: lightgreen\">You are currently logged in as a standard user</p>";
