@@ -15,9 +15,9 @@
  */
 
 session_start();
-$accesslevel = $_SESSION['access_level_session'];
+$accesslevels = $_SESSION['access_level_session'];
 
-displayAccessLevelInformation($accesslevel);
+displayAccessLevelInformation($accesslevels);
 
 function displayAccessLevelInformation($accesslevel)
 {
