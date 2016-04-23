@@ -7,7 +7,7 @@
  */
 include('server.php');
 $sql = "SELECT yearReleased, title, productionStudio, notes 
-        FROM marvelmovies WHERE title LIKE %'x-men'%";
+        FROM marvelmovies WHERE title LIKE '%x-men%'";
 $result = mysqli_query($conn,$sql);//procedural programming
 echo "
 <table>
