@@ -26,8 +26,8 @@ if(mysqli_num_rows($result)>0){
         <td>{$row['productionStudio']}</td>
         <td>{$row['notes']}</td>
             </tr>";
-        }
     }
+}
 echo "</table>";
 
-//$res= $conn->query($sql);//object oreinted programming
+//$res= $conn->query($sql);//object oriented programming

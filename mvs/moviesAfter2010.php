@@ -30,4 +30,4 @@ if(mysqli_num_rows($result)>0){
 }
 echo "</table>";
 
-//$res= $conn->query($sql);//object oreinted programming
+//$res= $conn->query($sql);//object oriented programming
