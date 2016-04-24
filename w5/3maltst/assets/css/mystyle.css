@@ -107,3 +107,33 @@ aside p {
     padding-right: 10px;
 }
 
+footer>p {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    font-size: 13px;
+}
