@@ -1,9 +1,37 @@
 @import "templatecolours.css";
 
+/* centres the main body of the site*/
 body {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* removes bullet points from links*/
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* floats links to left*/
+nav>ul>li {
+    float: left;
+}
+
+/* re,moves underlining, centres text and applies padding*/
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* applies hover colour*/
+li a:hover {
+    color: #363636;
 }
 
 /* font-family: 'Roboto', sans-serif; */
