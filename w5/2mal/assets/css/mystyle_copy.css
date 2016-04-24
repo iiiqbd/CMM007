@@ -26,11 +26,11 @@ nav a:hover{
     border-bottom: 2px solid;
     border-color: aquamarine;
 }
- main article{
+main article{
     float:left;
-     font-family: roboto;
-     text-align: justify;
-     text-justify: inter-word;
+    font-family: roboto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 footer{
     clear: both;
@@ -51,7 +51,7 @@ aside{
 }
 main article{
 
- padding-right:20px;
+    padding-right:20px;
 
 }
 #latest{
