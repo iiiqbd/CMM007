@@ -5,7 +5,7 @@
     <title>Bug Tracker</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
-    
+
 </head>
 <!-- start of body-->
 <body>
@@ -25,11 +25,11 @@
             <!-- start of navigation-->
             <nav>
                 <ul>
-                    <li><a href="bugs.html">All Bug Items</a></li>
-                    <li><a href="bugs.html">Android Bugs</a></li>
-                    <li><a href="bugs.html">iOS Bugs</a></li>
-                    <li><a href="bugs.html">Windows Bugs</a></li>
-                    <li><a href="bugs.html">Insert Bug</a></li>
+                    <li><a href="showbugs.php">All Bug Items</a></li>
+                    <li><a href="showbugs.php">Android Bugs</a></li>
+                    <li><a href="showbugs.php">iOS Bugs</a></li>
+                    <li><a href="showbugs.php">Windows Bugs</a></li>
+                    <li><a href="addbugs.php">Insert Bug</a></li>
                 </ul>
             </nav>
             <!-- end of navigation-->
@@ -39,7 +39,7 @@
         <!-- start of section-->
         <section>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisjcing elit,sed do eiuassmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisjcing elit,sed do eiuassmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </section>
         <!-- end of section-->
@@ -51,7 +51,7 @@
     <footer>
         <p>
             &copy; Designed by Uchechi Adiele, [2016]
-        </p>
+</p>
     </footer>
     <!-- end of footer-->
 
@@ -59,3 +59,11 @@
 <!-- end of body-->
 
 </html>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 0303077
+ * Date: 25/04/2016
+ * Time: 10:06
+ */

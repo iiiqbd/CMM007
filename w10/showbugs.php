@@ -36,26 +36,24 @@
     </aside>
     <!-- end of aside-->
 
-    <!-- start of form-->
-    <form action="" method="post">
-        <label for="bugname">Bug Name</label>
-        <input type="text" name="bugname" required>
-        <br>
-        <label for="bugsummary">Bug Summary</label>
-        <textarea name="comments" cols="50" rows="10" required></textarea>
-        <br>
-        <label for="bugcategory">Bug Category</label>
-        <select name="category">
-            <option value="">Select Bug Category</option>
-            <option value="android">Android</option>
-            <option value="ios">iOS</option>
-            <option value="windows">Windows</option>
-        </select>
-        <br>
-        <input type="submit" value="Submit">
-        <br>
-    </form>
-    <!-- end of form-->
+    <!-- start of section-->
+    <h2>Bug Name</h2>
+    <h3>Bug Category</h3>
+    <p>
+        Bug Summary Bug Summary Bug Summary Bug Summary
+        Bug Summary Bug Summary Bug Summary Bug Summary
+        Bug Summary Bug Summary Bug Summary Bug Summary
+    </p>
+    hr
+    <h2>Bug Name</h2>
+    <h3>Bug Category</h3>
+    <p>
+        Bug Summary Bug Summary Bug Summary Bug Summary
+        Bug Summary Bug Summary Bug Summary Bug Summary
+        Bug Summary Bug Summary Bug Summary Bug Summary
+    </p>
+
+    <!-- end of section-->
 
     <!-- end of main-->
 </main>
@@ -72,3 +70,34 @@
 <!-- end of body-->
 
 </html>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 0303077
+ * Date: 25/04/2016
+ * Time: 10:11
+ */
+
+include('db_conn.php');
+$sql = "SELECT bugName, bugCategory, bugSummary
+        FROM bugs";
+$result = mysqli_query($conn,$sql);
+echo "
+<table>
+<tr>
+<th>Bug Name</th>
+<th>Bug Category</th>
+<th>Bug Summary</th>
+</tr> ";
+
+if(mysqli_num_rows($result)>0){
+    while($row = mysqli_fetch_assoc($result)){
+        echo "<tr>
+        <td>{$row['bugName']}</td>
+        <td>{$row['bugCategory']}</td>
+        <td>{$row['bugSummary']}</td>
+            </tr>";
+    }
+}
+echo "</table>";
