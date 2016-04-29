@@ -1,7 +1,9 @@
-/* @import "templatecolours.css"; */
+@import "templatecolours.css";
 
 body {
-
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
