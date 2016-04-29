@@ -35,8 +35,9 @@ li a:hover {
 }
 
 /* sizes csdm logo*/
-#csdmlogo {
-    width: 300px;
+#logo {
+    width: 100px;
+    height: 100px;
 }
 /* sizes banner*/
 #banner {
