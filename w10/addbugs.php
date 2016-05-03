@@ -78,11 +78,12 @@ include('db_conn.php');
 
         $sql = "INSERT INTO bugs (bugName, bugCategory, bugSummary) VALUES ('$bugName', '$bugCategory', '$bugSummary')";
         $result = mysqli_query($conn,$sql);
-
+        header('location: index.php');
     }
 
     else {
-        header('location: index.php');}
+        header('location: index.php');
+    }
     ?>
 
 
