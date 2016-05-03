@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Evaluation Form</title>
+</head>
+<body>
+
+<main>
+    <h3>Product Evaluation Form for MacBook Pro 256GB, early 2015 version.</h3>
+    <form>
+
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        Date of Birth:<br>
+        <input type="date" name="bday"><br>
+        E-mail:<br>
+        <input type="email" name="email"><br>
+        Homepage:<br>
+        <input type="url" name="homepage"><br>
+        User name:<br>
+        <input type="text" name="username"><br>
+        Password:<br>
+        <input type="password" name="psw"><br><br>
+        <input type="radio" name="sex" value="male" checked="checked">
+        Male
+        <br>
+        <input type="radio" name="sex" value="female">
+        Female<br><br>
+
+        <select>
+            <option value="stream">Where did you buy your Macbook Pro from?</option>
+            <option value="apple">apple.co.uk</option>
+            <option value="amazon">amazon.co.uk</option>
+            <option value="ebay">ebay.co.uk</option>
+            <option value="aberdeen">Apple Store, Aberdeen</option>
+            <option value="edinburgh">Apple Store, Edinburgh</option>
+            <option value="glasgow">Apple Store, Glasgow</option>
+            <option value="other">Other source</option>
+        </select><br><br>
+
+        <select>
+            <option value="price">Product price (£)</option>
+            <option value="range">1100 - 1199</option>
+            <option value="range">1200 - 1299</option>
+            <option value="range">1300 - 1399</option>
+            <option value="range">1400 - 1499</option>
+        </select><br><br>
+        <p>What features of the Macbook Pro do you like best?</p>
+            <input type="checkbox" name="design" value="form-factor">
+            The Design and Form Factor<br>
+            <input type="checkbox" name="operating" value="system">
+            The secure and resilient Operating System<br>
+            <input type="checkbox" name="multiple" value=desktops">
+            Multiple Desktops<br>
+            <input type="checkbox" name="customer" value="support">
+            Exceptional Customer Support (Apple Care)<br>
+            <input type="checkbox" name="options" value="options">
+            Options and Customisations<br>
+            <input type="checkbox" name="keyboard" value="keyboard">
+            Back-lit keyboard<br>
+            <input type="checkbox" name="display" value="display">
+            Excellent LCD display<br>
+            <input type="checkbox" name="power-adapter" value="power-adapter">
+            Mag  Safe Power Adapter<br>
+            <input type="checkbox" name="retina" value="retina">
+            The Retina Display<br>
+            <input type="checkbox" name="integration" value="integration">
+            iOS and OS X Integration<br><br>
+
+        <legend>Overall, on a scale of 10 to 1 (10 for "my best laptop" and 1 for "my worst laptop"), how would you rate your Macbook Pro?</legend>
+        <p>
+            <label>Rating</label><br>
+            <input type="radio" name="list" value="10" checked="checked"> 10<br>
+            <input type="radio" name="list" value="10"> 9<br>
+            <input type="radio" name="list" value="10"> 8<br>
+            <input type="radio" name="list" value="10"> 7<br>
+            <input type="radio" name="list" value="10"> 6<br>
+            <input type="radio" name="list" value="10"> 5<br>
+            <input type="radio" name="list" value="10"> 4<br>
+            <input type="radio" name="list" value="10"> 3<br>
+            <input type="radio" name="list" value="10"> 2<br>
+            <input type="radio" name="list" value="10"> 1<br>
+        </p>
+
+            <p>Was this your first purchase of an Apple product?<p>
+                <input type="radio" name="choose" value="yes" checked="checked">
+                Yes
+                <br>
+                <input type="radio" name="choose" value="no">
+                No<br><br>
+
+        <p>What kind of phone do you have?</p>
+            <input type="checkbox" name="iphone" value="iphone">
+            iPhone<br>
+            <input type="checkbox" name="android" value="android">
+            Android phone<br>
+            <input type="checkbox" name="windows" value="windows">
+            Windows phone<br>
+            <input type="checkbox" name="blackberry" value="blackberry">
+            Blackberry<br>
+            <input type="checkbox" name="all" value="all">
+            All of the above<br>
+            <input type="checkbox" name="other" value="other">
+            Other type of phone<br>
+
+        <p>Thanks for taking your time to complete this form. Please use the following comment</p>
+        <p>box to tell us what improvements you would like to see in a future Macbook Pro</p>
+        <textarea name="message" rows="10" cols="70"></textarea><br><br>
+        <input type="submit" value="Submit"><br><br><br>
+
+    </form>
+</main>
+
+</body>
+
+<footer>
+    &copy; tech-sales.info
+</footer>
+
+</html>

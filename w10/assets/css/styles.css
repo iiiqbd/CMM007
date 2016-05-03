@@ -1,0 +1,143 @@
+/* @import "templatecolours.css"; */
+
+/* centres the main body of the site*/
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* removes bullet points from links*/
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* floats links to left*/
+nav>ul>li {
+    float: left;
+}
+
+/* re,moves underlining, centres text and applies padding*/
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* applies hover colour*/
+li a:hover {
+    color: #363636;
+}
+
+/* sizes csdm logo*/
+#logo {
+    width: 100px;
+    height: 100px;
+}
+/* sizes banner*/
+#banner {
+    width: 960px;
+}
+/* sizes head of school's image*/
+#hos {
+    width: 200px;
+}
+
+/* text styling*/
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+p, h2, h3, h4, h5, a {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+h3, h4, h5 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+#hos {
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+#news {
+    background-color: #DBC9DF;
+}
+
+#events {
+    background-color: #782A7E;
+}
+
+footer {
+    background-color: #363636;
+}
+
+aside {
+    color: white;
+}
+
+aside p, h3, h4 {
+    margin: 0;
+}
+aside h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside h4 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer>p {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    font-size: 13px;
+}
+
+
+/* dummy comment for push purposes */
