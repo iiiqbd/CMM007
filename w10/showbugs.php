@@ -49,6 +49,25 @@
     if(isset($_GET['bugCategory'])) {
         $bugCategory = $_GET['bugCategory'];
         $sql_query = "SELECT * FROM bugs where bugCategory = '$bugCategory'";
+        $result = mysqli_query($conn,$sql);
+        echo "
+    <table>
+        <tr>
+            <th>Bug Name</th>
+            <th>Bug Category</th>
+            <th>Bug Summary</th>
+        </tr> ";
+
+        if(mysqli_num_rows($result)>0){
+            while($row = mysqli_fetch_assoc($result)){
+                echo "<tr>
+            <td>{$row['bugName']}</td>
+            <td>{$row['bugCategory']}</td>
+            <td>{$row['bugSummary']}</td>
+        </tr>";
+            }
+        }
+        echo "</table>";
     }else{
 
     $sql = "SELECT bugName, bugCategory, bugSummary
