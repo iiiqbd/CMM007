@@ -26,7 +26,7 @@
         <nav>
             <ul>
                 <li><a href="showbugs.php">All Bug Items</a></li>
-                <li><a href="showbugs.php">Android Bugs</a></li>
+                <li><a href="showbugs.php?bugCategory=android">Android Bugs</a></li>
                 <li><a href="showbugs.php">iOS Bugs</a></li>
                 <li><a href="showbugs.php">Windows Bugs</a></li>
                 <li><a href="addbugs.php">Insert Bug</a></li>
@@ -44,6 +44,13 @@
      * Time: 10:11
      */
     include('db_conn.php');
+
+
+    if(isset($_GET['id'])) {
+        $bugCategory = $_GET['bugCategory'];
+        $sql_query = "SELECT * FROM bugs where bugCategory = '$bugCategory'";
+    }else{
+
     $sql = "SELECT bugName, bugCategory, bugSummary
     FROM bugs";
     $result = mysqli_query($conn,$sql);
@@ -65,6 +72,8 @@
         }
         }
         echo "</table>";
+
+    }
     ?>
 
 
