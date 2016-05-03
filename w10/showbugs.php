@@ -46,7 +46,7 @@
     include('db_conn.php');
 
 
-    if(isset($_GET['id'])) {
+    if(isset($_GET['bugCategory'])) {
         $bugCategory = $_GET['bugCategory'];
         $sql_query = "SELECT * FROM bugs where bugCategory = '$bugCategory'";
     }else{
