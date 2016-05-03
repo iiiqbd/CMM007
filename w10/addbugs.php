@@ -48,7 +48,7 @@ include('db_conn.php');
     // execute if requested using HTTP GET Method
         ?>
             <!-- start of form-->
-            <form action="" method="post">
+            <form action="<?$_SERVER['PHP_SELF']?>" method="post">
                 <label for="bugname">Bug Name</label>
                 <input type="text" id="bugname" required>
                 <br>
