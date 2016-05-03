@@ -14,7 +14,7 @@
     <form action="insertBattle.php" method="post">
         <p>Select the superhero that fought in this battle</p><select name="superhero">
         <?
-        include ("db_connect.php");
+        include("db_connect.php");
         $sql_query = "SELECT * FROM superheros";
         $result = $db->query($sql_query);
         while($row = $result->fetch_array()) {

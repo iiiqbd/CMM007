@@ -12,7 +12,7 @@
 </header>
 <main>
     <?
-    include ("db_connect.php");
+    include("db_connect.php");
 
     if(isset($_GET['id'])) {
         $superheroID = $_GET['id'];
