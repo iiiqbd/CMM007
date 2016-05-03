@@ -49,14 +49,14 @@ include('db_conn.php');
         ?>
             <!-- start of form-->
             <form action="<?$_SERVER['PHP_SELF']?>" method="post">
-                <label for="bugName">Bug Name</label>
-                <input type="text" id="bugName" required>
+                <label for="bugname">Bug Name</label>
+                <input type="text" id="bugname" required>
                 <br>
-                <label for="bugSummary">Bug Summary</label>
-                <textarea name="comments" id="bugSummary" cols="50" rows="10" required></textarea>
+                <label for="bugsummary">Bug Summary</label>
+                <textarea name="comments" id="bugsummary" cols="50" rows="10" required></textarea>
                 <br>
-                <label for="bugCategory">Bug Category</label>
-                <select name="bugcategory" id="bugCategory" required>
+                <label for="bugcategory">Bug Category</label>
+                <select name="bugcategory" id="bugcategory" required>
                     <option value="">Select Bug Category</option>
                     <option value="android">Android</option>
                     <option value="ios">iOS</option>
@@ -72,9 +72,9 @@ include('db_conn.php');
     elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // execute if requested using HTTP POST Method
 
-        $bugName = $_POST["bugName"];
-        $bugCategory = $_POST["bugCategory"];
-        $bugSummary = $_POST["bugSummary"];
+        $bugName = $_POST["bugname"];
+        $bugCategory = $_POST["bugcategory"];
+        $bugSummary = $_POST["bugsummary"];
 
         $sql = "INSERT INTO bugs (bugName, bugCategory, bugSummary) VALUES ('$bugName', '$bugCategory', '$bugSummary')";
         $result = mysqli_query($conn,$sql);
