@@ -8,11 +8,11 @@
 <header>
     <h1>The Super-Superhero System</h1>
     <h2>Record a Battle</h2>
-    <p><a href="index.php">Return to home...</a></p>
+    <p><a href="index.php">Return to homepage</a></p>
 </header>
 <main>
     <form action="insertBattle.php" method="post">
-        <p>Select the superhero that faught in this battle</p><select name="superhero">
+        <p>Select the superhero that fought in this battle</p><select name="superhero">
         <?
         include ("db_connect.php");
         $sql_query = "SELECT * FROM superheros";
@@ -25,7 +25,7 @@
         }
         ?>
         </select><br>
-        <input type="text" name="villan" placeholder="Villan Faught"><br>
+        <input type="text" name="villain" placeholder="Villain Fought"><br>
         <input type="submit" value="Record Battle">
     </form>
 </main>
