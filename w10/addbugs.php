@@ -71,7 +71,7 @@ include('db_conn.php');
 
     elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // execute if requested using HTTP POST Method
-      ?>
+
         $bugName = $_POST["bugname"];
         $bugCategory = $_POST["bugcategory"];
         $bugSummary = $_POST["bugsummary"];
@@ -79,7 +79,7 @@ include('db_conn.php');
         $sql = "INSERT INTO bugs (bugName, bugCategory, bugSummary) VALUES ('$bugName', '$bugCategory', '$bugSummary')";
         $result = mysqli_query($conn,$sql);
 
-    <?}
+    }
 
     else
         header('location: index.php');
