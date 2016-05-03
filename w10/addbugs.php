@@ -1,10 +1,8 @@
 <?php
-$bugName = $_POST["bugname"];
-$bugCategory = $_POST["bugcategory"];
-$bugSummary = $_POST["bugsummary"];
 
-$sql = "INSERT INTO bugs (bugName, bugCategory, bugSummary) VALUES ('$bugName', '$bugCategory', '$bugSummary')";
-$result = mysqli_query($conn,$sql);
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -45,26 +43,49 @@ $result = mysqli_query($conn,$sql);
     </aside>
     <!-- end of aside-->
 
-    <!-- start of form-->
-    <form action="" method="post">
-        <label for="bugname">Bug Name</label>
-        <input type="text" id="bugname" required>
-        <br>
-        <label for="bugsummary">Bug Summary</label>
-        <textarea name="comments" id="bugsummary" cols="50" rows="10" required></textarea>
-        <br>
-        <label for="bugcategory">Bug Category</label>
-        <select name="bugcategory" id="bugcategory" required>
-            <option value="">Select Bug Category</option>
-            <option value="android">Android</option>
-            <option value="ios">iOS</option>
-            <option value="windows">Windows</option>
-        </select>
-        <br>
-        <input type="submit" value="Submit">
-        <br>
-    </form>
-    <!-- end of form-->
+<?
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    // execute if requested using HTTP GET Method
+        ?>
+            <!-- start of form-->
+            <form action="" method="post">
+                <label for="bugname">Bug Name</label>
+                <input type="text" id="bugname" required>
+                <br>
+                <label for="bugsummary">Bug Summary</label>
+                <textarea name="comments" id="bugsummary" cols="50" rows="10" required></textarea>
+                <br>
+                <label for="bugcategory">Bug Category</label>
+                <select name="bugcategory" id="bugcategory" required>
+                    <option value="">Select Bug Category</option>
+                    <option value="android">Android</option>
+                    <option value="ios">iOS</option>
+                    <option value="windows">Windows</option>
+                </select>
+                <br>
+                <input type="submit" value="Submit">
+                <br>
+            </form>
+            <!-- end of form-->
+        <? }
+
+    elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // execute if requested using HTTP POST Method
+      ?>
+        $bugName = $_POST["bugname"];
+        $bugCategory = $_POST["bugcategory"];
+        $bugSummary = $_POST["bugsummary"];
+
+        $sql = "INSERT INTO bugs (bugName, bugCategory, bugSummary) VALUES ('$bugName', '$bugCategory', '$bugSummary')";
+        $result = mysqli_query($conn,$sql);
+
+    <?}
+
+    else
+        header('location: index.php');
+    ?>
+
+
 
     <!-- end of main-->
 </main>
