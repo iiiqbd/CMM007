@@ -50,10 +50,10 @@ include('db_conn.php');
             <!-- start of form-->
             <form action="<?$_SERVER['PHP_SELF']?>" method="post">
                 <label for="bugname">Bug Name</label>
-                <input type="text" id="bugname" required>
+                <input type="text" name="bugname" id="bugname" required>
                 <br>
                 <label for="bugsummary">Bug Summary</label>
-                <textarea name="comments" id="bugsummary" cols="50" rows="10" required></textarea>
+                <textarea name="bugsummary" id="bugsummary" cols="50" rows="10" required></textarea>
                 <br>
                 <label for="bugcategory">Bug Category</label>
                 <select name="bugcategory" id="bugcategory" required>
