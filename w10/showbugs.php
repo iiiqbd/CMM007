@@ -25,11 +25,11 @@
         <!-- start of navigation-->
         <nav>
             <ul>
-                <li><a href="html-files/showbugs.html">All Bug Items</a></li>
-                <li><a href="html-files/showbugs.html">Android Bugs</a></li>
-                <li><a href="html-files/showbugs.html">iOS Bugs</a></li>
-                <li><a href="html-files/showbugs.html">Windows Bugs</a></li>
-                <li><a href="html-files/showbugs.html">Insert Bug</a></li>
+                <li><a href="showbugs.php">All Bug Items</a></li>
+                <li><a href="showbugs.php">Android Bugs</a></li>
+                <li><a href="showbugs.php">iOS Bugs</a></li>
+                <li><a href="showbugs.php">Windows Bugs</a></li>
+                <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
         <!-- end of navigation-->
