@@ -25,11 +25,11 @@
         <!-- start of navigation-->
         <nav>
             <ul>
-                <li><a href="bugs.html">All Bug Items</a></li>
-                <li><a href="bugs.html">Android Bugs</a></li>
-                <li><a href="bugs.html">iOS Bugs</a></li>
-                <li><a href="bugs.html">Windows Bugs</a></li>
-                <li><a href="bugs.html">Insert Bug</a></li>
+                <li><a href="showbugs.php">All Bug Items</a></li>
+                <li><a href="showbugs.php">Android Bugs</a></li>
+                <li><a href="showbugs.php">iOS Bugs</a></li>
+                <li><a href="showbugs.php">Windows Bugs</a></li>
+                <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
         <!-- end of navigation-->
@@ -39,13 +39,13 @@
     <!-- start of form-->
     <form action="" method="post">
         <label for="bugname">Bug Name</label>
-        <input type="text" name="bugname" required>
+        <input type="text" id="bugname" required>
         <br>
         <label for="bugsummary">Bug Summary</label>
-        <textarea name="comments" cols="50" rows="10" required></textarea>
+        <textarea name="comments" id="bugsummary" cols="50" rows="10" required></textarea>
         <br>
         <label for="bugcategory">Bug Category</label>
-        <select name="category">
+        <select name="bugcategory" id="bugcategory" required>
             <option value="">Select Bug Category</option>
             <option value="android">Android</option>
             <option value="ios">iOS</option>

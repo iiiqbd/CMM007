@@ -20,6 +20,22 @@
 <!-- start of main-->
 <main>
 
+    <!-- start of aside-->
+    <aside>
+        <!-- start of navigation-->
+        <nav>
+            <ul>
+                <li><a href="showbugs.html">All Bug Items</a></li>
+                <li><a href="showbugs.html">Android Bugs</a></li>
+                <li><a href="showbugs.html">iOS Bugs</a></li>
+                <li><a href="showbugs.html">Windows Bugs</a></li>
+                <li><a href="showbugs.html">Insert Bug</a></li>
+            </ul>
+        </nav>
+        <!-- end of navigation-->
+    </aside>
+    <!-- end of aside-->
+
     <?php
     /**
      * Created by PhpStorm.
