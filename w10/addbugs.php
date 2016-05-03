@@ -1,3 +1,12 @@
+<?php
+$bugName = $_POST["bugname"];
+$bugCategory = $_POST["bugcategory"];
+$bugSummary = $_POST["bugsummary"];
+
+$sql = "INSERT INTO bugs (bugName, bugCategory, bugSummary) VALUES ('$bugName', '$bugCategory', '$bugSummary')";
+$result = mysqli_query($conn,$sql);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
