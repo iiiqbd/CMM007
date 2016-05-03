@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Superhero System</title>
+    <title>Displaying all Battles</title>
 </head>
 <body>
 <header>
     <h1>The Super-Superhero System</h1>
     <h2>Display all Battles</h2>
-    <p><a href="index.php">Return to home...</a></p>
+    <p><a href="index.php">Back to homepage...</a></p>
 </header>
 <main>
     <?
@@ -29,9 +29,9 @@ else {
         $firstname = $row['firstName'];
         $lastname = $row['lastName'];
         $mainSuperpower = $row['mainSuperpower'];
-        $villanFought = $row['villanFought'];
+        $villainFought = $row['villainFought'];
         echo "<article>
-            <p> The superhero known as <strong>{$firstname} {$lastname}</strong> recently fought <strong>{$villanFought}</strong> using <strong>{$mainSuperpower}</strong> </p>
+            <p> The superhero known as <strong>{$firstname} {$lastname}</strong> recently fought <strong>{$villainFought}</strong> using <strong>{$mainSuperpower}</strong> </p>
             </article>";
     }
     ?>

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Superhero System</title>
+    <title>Showing all Superheros</title>
 </head>
 <body>
 <header>
     <h1>The Super-Superhero System</h1>
     <h2>Display all Superheros</h2>
-    <p><a href="index.php">Return to homepage</a></p>
+    <p><a href="index.php">Back to homepage...</a></p>
 </header>
 <main>
 <?

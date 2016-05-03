@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Insert Superhero</title>
+    <title>Insert Battle</title>
 </head>
 <body>
 <header>
     <h1>The Super-Superhero System</h1>
     <h2>Record a Battle</h2>
-    <p><a href="index.php">Return to homepage</a></p>
+    <p><a href="index.php">Back to homepage...</a></p>
 </header>
 <main>
     <form action="insertBattle.php" method="post">
@@ -25,8 +25,8 @@
         }
         ?>
         </select><br>
-        <input type="text" name="villain" placeholder="Villain Fought"><br>
-        <input type="submit" value="Record Battle">
+        <input type="text" name="villain" placeholder="Villain Fought"><br><br>
+        <input type="submit" value="Record Battle"><br><br>
     </form>
 </main>
 </body>
