@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Show Bugs</title>
+    <title><? $bugCategory = $_GET['bugCategory'];
+        echo '$bugCategory'; ?></title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
 
