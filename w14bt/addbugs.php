@@ -92,7 +92,7 @@
 
 <!--Start of footer-->
 <footer>
-    Designed by [Uche Jude Egbue, 2016]
+    &copy; Designed by [Uchechiu Adiele 2016]
 </footer>
 <!--end of footer-->
 </body>
