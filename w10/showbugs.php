@@ -14,7 +14,8 @@
 <header>
     <img src="assets/images/logo.png" alt="Bug tracker logo" id="logo">
     <h1>Bug Tracker</h1>
-    <h1>Here are all the bugs we have information on</h1>
+    <h2>Keeping track of all the pesky little bugs</h2>
+    <div id="header"></div>
 </header>
 <!-- end of header-->
 
