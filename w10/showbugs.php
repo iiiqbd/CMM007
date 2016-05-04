@@ -71,8 +71,7 @@
         echo "</table>";
     }else{
 
-    $sql = "SELECT *
-    FROM bugs";
+    $sql = "SELECT *  FROM bugs";
     $result = mysqli_query($conn,$sql);
     echo "
     <table>

@@ -21,7 +21,7 @@
     <header>
         <img src="assets/images/logo.png" alt="Bug tracker logo" id="logo">
         <h1>Bug Tracker</h1>
-        <h1>Keeping track of all the pesky little bugs</h1>
+        <h2>Keeping track of all the pesky little bugs</h2>
     <div id="header"></div>
     </header>
     
