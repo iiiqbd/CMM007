@@ -69,6 +69,8 @@ footer {
 aside {
     color: white;
     float: left;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 aside p, h3, h4 {
