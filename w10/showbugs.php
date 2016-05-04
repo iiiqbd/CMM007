@@ -71,7 +71,7 @@
         echo "</table>";
     }else{
 
-    $sql = "SELECT bugName, bugCategory, bugSummary
+    $sql = "SELECT *
     FROM bugs";
     $result = mysqli_query($conn,$sql);
     echo "

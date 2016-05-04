@@ -36,7 +36,7 @@
             <!-- start of navigation-->
             <nav>
                 <ul>
-                    <li><a href="showbugs.php">All Bug Items</a></li>
+                    <li><a href="showbugs.php?bugCategory=all">All Bug Items</a></li>
                     <li><a href="showbugs.php?bugCategory=android">Android Bugs</a></li>
                     <li><a href="showbugs.php?bugCategory=ios">iOS Bugs</a></li>
                     <li><a href="showbugs.php?bugCategory=microsoft">Windows Bugs</a></li>
