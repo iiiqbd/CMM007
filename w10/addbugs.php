@@ -35,7 +35,7 @@ include('db_conn.php');
                 <li><a href="showbugs.php">All Bug Items</a></li>
                 <li><a href="showbugs.php?bugCategory=android">Android Bugs</a></li>
                 <li><a href="showbugs.php?bugCategory=ios">iOS Bugs</a></li>
-                <li><a href="showbugs.php?bugCategory=windows">Windows Bugs</a></li>
+                <li><a href="showbugs.php?bugCategory=microsoft">Windows Bugs</a></li>
                 <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
