@@ -1,4 +1,4 @@
-/* @import "templatecolours.css"; */
+@import "templatecolours.css";
 
 /* centres the main body of the site*/
 body {
@@ -39,14 +39,6 @@ li a:hover {
     width: 100px;
     height: 100px;
 }
-/* sizes banner*/
-#banner {
-    width: 960px;
-}
-/* sizes head of school's image*/
-#hos {
-    width: 200px;
-}
 
 /* text styling*/
 
@@ -65,26 +57,18 @@ h3, h4, h5 {
     font-weight: 700;
 }
 
-#hos {
-    width: 200px;
-    float: left;
-    padding-right: 10px;
-}
-
-#news {
-    background-color: #DBC9DF;
-}
-
-#events {
-    background-color: #782A7E;
+section {
+    float: right;
 }
 
 footer {
     background-color: #363636;
+    clear: both;
 }
 
 aside {
     color: white;
+    float: left;
 }
 
 aside p, h3, h4 {
