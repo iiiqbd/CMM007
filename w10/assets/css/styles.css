@@ -15,6 +15,17 @@ nav>ul {
     overflow: hidden;
 }
 
+#header{
+    clear: both;
+}
+
+header img {
+    float: left;
+}
+
+header h1 {
+    float: left;
+}
 /* floats links to left*/
 nav>ul>li {
     float: left;
