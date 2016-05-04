@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><? $bugCategory = $_GET['bugCategory'];
-        echo '$bugCategory'; ?></title>
+        echo $bugCategory; ?></title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
 
