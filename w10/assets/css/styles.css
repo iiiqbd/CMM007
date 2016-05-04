@@ -16,15 +16,15 @@ nav>ul {
 }
 
 /* floats links to left*/
-/*nav>ul>li {*/
-    /*float: left;*/
-/*}*/
+nav>ul>li {
+    float: left;
+}
 
 /* removes underlining, centres text and applies padding*/
 nav>ul>li a {
     display: block;
     color: #000000;
-    text-align: center;
+    /*text-align: center; */
     padding: 10px 30px;
     text-decoration: none;
 }
