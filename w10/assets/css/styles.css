@@ -23,6 +23,7 @@ nav>ul {
 header h1 {
     float: left;
     width: 820px;
+    margin-top: -5px;
 
 }
 /* floats links to left*/
@@ -49,6 +50,7 @@ li a:hover {
     width: 100px;
     height: 100px;
     float: left;
+    margin-right: 10px;
 }
 
 /* text styling*/
