@@ -16,11 +16,11 @@ nav>ul {
 }
 
 /* floats links to left*/
-nav>ul>li {
-    float: left;
-}
+/*nav>ul>li {*/
+    /*float: left;*/
+/*}*/
 
-/* re,moves underlining, centres text and applies padding*/
+/* removes underlining, centres text and applies padding*/
 nav>ul>li a {
     display: block;
     color: #000000;
