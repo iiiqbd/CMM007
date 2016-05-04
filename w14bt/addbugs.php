@@ -92,7 +92,7 @@
 
 <!--Start of footer-->
 <footer>
-    &copy; Designed by [Uchechiu Adiele 2016]
+    &copy; Designed by [Uchechi Adiele 2016]
 </footer>
 <!--end of footer-->
 </body>
