@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><? echo $_GET['bugCategory']; ?></title>
+    <title><? include('db_conn.php');
+        echo $_GET['bugCategory']; ?></title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
 
