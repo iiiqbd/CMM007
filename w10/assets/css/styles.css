@@ -19,12 +19,11 @@ nav>ul {
     clear: both;
 }
 
-header img {
-    float: left;
-}
 
-header h1, h2 {
+header h1 {
     float: left;
+    width: 820px;
+
 }
 /* floats links to left*/
 nav>ul>li {
@@ -49,6 +48,7 @@ li a:hover {
 #logo {
     width: 100px;
     height: 100px;
+    float: left;
 }
 
 /* text styling*/
