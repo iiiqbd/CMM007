@@ -13,7 +13,7 @@ define('DB','dev2705db');
 $conn = mysqli_connect(SERVER,USER,PASSWORD,DB);
 
 if ($conn){
-    echo "The link to the Database is up";
+    echo "";
 }else{
     echo "Error".mysqli_error($conn);
 }
