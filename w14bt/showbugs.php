@@ -42,7 +42,7 @@
         include('connect.php');
         if(isset($_GET['category']) && $_GET['category'] == 'all'){
             $sql = "SELECT bugName, bugSummary, bugCategory
-            FROM bugs ";
+            FROM bugs";
             $result = mysqli_query($db,$sql);
             echo "
             <table>
@@ -117,7 +117,7 @@
             echo "</table>";
         }elseif(isset($_GET['category']) && $_GET['category'] == 'windows'){
             $sql = "SELECT bugName, bugSummary, bugCategory
-            FROM bugs WHERE bugCategory='Windows'";
+            FROM bugs WHERE bugCategory='Microsoft'";
             $result = mysqli_query($db,$sql);
             echo "
             <table>
