@@ -13,7 +13,7 @@ define('DB','dev2705db');
 $conn = mysqli_connect(SERVER,USER,PASSWORD,DB);
 
 if ($conn){
-    echo "";
+    echo "The database is online";
 }else{
     echo "Error".mysqli_error($conn);
 }
