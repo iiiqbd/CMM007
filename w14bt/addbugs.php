@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bugtracas</title>
+    <title>Bugs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -74,7 +74,7 @@
                 $bugname = $_POST['bugname'];
                 $bugs = $_POST['bugs'];
                 $summary = $_POST['summary'];
-                $sql = "INSERT INTO bugtracas (bugName, bugSummary, bugCategory)
+                $sql = "INSERT INTO bugs (bugName, bugSummary, bugCategory)
                         VALUES ('$bugname', '$summary', '$bugs')";
                 if ($push = mysqli_query($db, $sql)) {
                     header("Location: showbugs.php");

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bugtracas</title>
+    <title>bugs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -42,7 +42,7 @@
         include('connect.php');
         if(isset($_GET['category']) && $_GET['category'] == 'all'){
             $sql = "SELECT bugName, bugSummary, bugCategory
-            FROM bugtracas ";
+            FROM bugs ";
             $result = mysqli_query($db,$sql);
             echo "
             <table>
@@ -67,7 +67,7 @@
             echo "</table>";
         }elseif(isset($_GET['category']) && $_GET['category'] == 'android'){
             $sql = "SELECT bugName, bugSummary, bugCategory
-            FROM bugtracas WHERE bugCategory='Android'";
+            FROM bugs WHERE bugCategory='Android'";
             $result = mysqli_query($db,$sql);
             echo "
             <table>
@@ -92,7 +92,7 @@
             echo "</table>";
         }elseif(isset($_GET['category']) && $_GET['category'] == 'iOS'){
             $sql = "SELECT bugName, bugSummary, bugCategory
-            FROM bugtracas WHERE bugCategory='iOS'";
+            FROM bugs WHERE bugCategory='iOS'";
             $result = mysqli_query($db,$sql);
             echo "
             <table>
@@ -117,7 +117,7 @@
             echo "</table>";
         }elseif(isset($_GET['category']) && $_GET['category'] == 'windows'){
             $sql = "SELECT bugName, bugSummary, bugCategory
-            FROM bugtracas WHERE bugCategory='Windows'";
+            FROM bugs WHERE bugCategory='Windows'";
             $result = mysqli_query($db,$sql);
             echo "
             <table>
