@@ -10,11 +10,12 @@ $username=$_SESSION["user"];
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Congrats</title>
+        <title>Welcome!</title>
     </head>
     <body>
         <form method="get" action="logout.php">
-            <p>Congratulations you have successfully logged in.</p>
+            <p>Congratulations you have successfully logged in to the Texbook Exchange Website!</p>
+            <p>We hope you like our site and that you do some business with us.</p>
             <button type="submit">Logout</button>
         </form>
     </body>
