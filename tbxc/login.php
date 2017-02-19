@@ -21,12 +21,12 @@ if(isset($_SESSION["username"])) {
         <input type="text" name="username" placeholder="Username" required><br>
         <input type="password" name="password" placeholder="Password" required><br>
         <button type="submit">Login</button>
-        <input type="checkbox" checked="checked"> Keep me logged in
+        <input type="checkbox" checked="checked">Keep me logged in
     </div>
 
     <div class="container">
         <button type="button" class="cancelbutton">Cancel</button><br>
-        <span>Have you forgotten your <a href="#">password?</a></span>
+        <span>Click here if you've forgotten your <a href="#">password?</a></span>
     </div>
 </form>
 
