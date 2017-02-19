@@ -14,7 +14,8 @@ $username=$_SESSION["user"];
     </head>
     <body>
         <form method="get" action="logout.php">
-            <p>Congratulations you have successfully logged in to the Texbook Exchange Website!</p>
+            <p>Congratulations!</p>
+            <p>You have successfully logged in to the Texbook Exchange Website!</p>
             <p>We hope you like our site and that you do some business with us.</p>
             <button type="submit">Logout</button>
         </form>
