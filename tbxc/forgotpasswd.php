@@ -13,13 +13,9 @@
             <h3>Request a new password here</h3>
             <h4>Fill in your details</h4>
             <form method="post">
-                <input id="username" name="username" title="Username"
-                        required type="text" placeholder="Username"/>
-                <br></br>
-                <input id="email" name="email" required
-                       type="email" placeholder="abc@xyz.com"/>
-                <br></br>
-                <input type="submit" name="submit" value ="Send"/>
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="email" name="email" placeholder="abc@xyz.com" required><br>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </body>
