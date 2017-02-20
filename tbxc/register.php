@@ -12,7 +12,7 @@
 
         <div class="container">
             <h2>Fill in your details to create an account.</h2>
-            <form action="#" method="post" autocomplete="off">
+            <form action="newaccountmsg.php" method="post" autocomplete="off">
                 <input type="text" name="username" placeholder="Username" required/>
                 <input type="email" name="email" placeholder="Email Address" required/>
                 <input type="password"name="password" placeholder="Password" required/>
