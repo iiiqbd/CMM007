@@ -26,7 +26,7 @@ if(isset($_SESSION["username"])) {
 
     <div class="container">
         <button type="button" class="cancelbutton">Cancel</button><br>
-        <span>Click here if you've forgotten your <a href="#">password?</a></span>
+        <span>Click here if you've forgotten your <a href="#">password</a></span>
     </div>
 </form>
 
