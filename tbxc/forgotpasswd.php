@@ -24,7 +24,7 @@
 
     <footer>
         <div class="container">
-            <small> >&copy; 2017 textbookexchange.com</small>
+            <p>&copy; 2017 textbookexchange.com</p>
         </div>
     </footer>
 
