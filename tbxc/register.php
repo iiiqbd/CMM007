@@ -19,7 +19,7 @@
                 <input type="reset" name="reset" value="Reset"/>
             </form>
 
-            <h4>Already have an account? <a href="login.php">Click Here</a> to login</h4>
+            <h4>Already have an account? <a href="login.php">Click here</a> to login</h4>
         </div>
 
     </body>
