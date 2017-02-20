@@ -5,6 +5,6 @@ $accounts = array(
     "Jennifer"=>"Gowie",
     "Ike"=>"Adiele",
     "Kit"=>"Hui",
-    "a"=>"a"
+    "z"=>"z" // dummy account for fast access
 );
 ?>
