@@ -17,7 +17,7 @@
                 <input type="email" name="email" placeholder="abc@xyz.com" required><br>
                 <button type="submit">Submit</button>
             </form>
-            <br><br>
+            <br>
             <h4>Alternatively, click here to <a href="login.php">login</a>.</h4>
         </div>
     </body>
