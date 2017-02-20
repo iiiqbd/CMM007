@@ -1,5 +1,6 @@
 button {
-    background-color: green;
+    background-color: darkgreen;
+    color: white;
     border: none;
     border-radius: 5px;
     width: 100%;
@@ -13,7 +14,7 @@ button {
 }
 
 input[type=text], input[type=password] {
-    border: 5px solid darkgray;
+    border: 2px solid grey;
     border-radius: 5px;
     width: 100%;
     padding: 10px 0;
