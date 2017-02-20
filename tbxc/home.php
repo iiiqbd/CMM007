@@ -18,7 +18,6 @@ $username=$_SESSION["user"];
             <form method="get" action="logout.php">
                 <h3>Congratulations!</h3>
                 <h4>You have successfully logged in to the Texbook Exchange Website!</h4>
-                <h4>You can exchange all kinds of books, periodicals, reports, etc. with other registered users.</h4>
                 <p>We hope you like our site and that you do some business with us.</p>
                 <button type="submit">Logout</button>
             </form>
