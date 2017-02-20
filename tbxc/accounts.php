@@ -1,4 +1,7 @@
 <?php
+
+// NB: add comments throughout!
+
 $accounts = array(
     "Matthew"=>"Bolton",
     "Alistair"=>"White",

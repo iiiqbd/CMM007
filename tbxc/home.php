@@ -1,5 +1,8 @@
 
 <?php
+
+// NB: add comments throughout!
+
 session_start();
 if(!isset($_SESSION["username"])) {
     header("location: login.php");
@@ -7,6 +10,9 @@ if(!isset($_SESSION["username"])) {
 $username=$_SESSION["user"];
 ?>
 <!DOCTYPE html>
+
+<!-- NB: add comments, sort formatting! -->
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">

@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- NB: add comments, sort formatting! -->
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">

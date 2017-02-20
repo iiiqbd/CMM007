@@ -1,4 +1,7 @@
 <?php
+
+// NB: add comments throughout!
+
 session_start();
 
 if(empty($_POST) or empty($_POST["username"]) or empty($_POST["password"])) {

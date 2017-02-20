@@ -1,4 +1,5 @@
 <?php
+// NB: add comments throughout!
 session_start();
 if(isset($_SESSION["username"])) {
     header("location: home.php");
@@ -7,6 +8,9 @@ if(isset($_SESSION["username"])) {
 ?>
 
 <!DOCTYPE html>
+
+<!-- NB: add comments, sort formatting! -->
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
