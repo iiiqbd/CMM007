@@ -24,8 +24,7 @@
 
     <footer>
         <div class="container">
-        <small> >&copy; 2017 textbookexchange.com</small>
-            </form>
+            <small> >&copy; 2017 textbookexchange.com</small>
         </div>
     </footer>
 
