@@ -4,6 +4,7 @@ $accounts = array(
     "Alistair"=>"White",
     "Jennifer"=>"Gowie",
     "Ike"=>"Adiele",
-    "Kit"=>"Hui"
+    "Kit"=>"Hui",
+    "a"=>"a"
 );
 ?>
