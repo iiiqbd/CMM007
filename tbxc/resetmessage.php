@@ -12,6 +12,7 @@
         <div class="container">
             <h3>Your password has been reset.</h3>
             <h4>Visit your email and follow instructions to create a new password.</h4>
+            <span>Alternatively, click here to <a href="login.php">login</a> in.</span>
         </div>
     </body>
 

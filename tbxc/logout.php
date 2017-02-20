@@ -16,7 +16,7 @@ session_destroy();
 
             <div class="container">
                 <h4>Thanks for visiting Textbook Exchange! Goodbye!!</h4>
-                <span>Click here if you to want to <a href="login.php">login</a> again.</span>
+                <span>Click here to <a href="login.php">login</a> again.</span>
             </div>
     </body>
 </html>
