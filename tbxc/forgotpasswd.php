@@ -23,7 +23,10 @@
     </body>
 
     <footer>
+        <div class="container">
         <small> >&copy; 2016 MCEv0.3 </small>
+            </form>
+        </div>
     </footer>
 
 </html>
