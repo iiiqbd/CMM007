@@ -15,7 +15,7 @@ button {
 
 input[type=text], input[type=password] {
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
     padding: 10px 0;
     margin: 6px 0;
