@@ -8,6 +8,7 @@
     <body>
 
         <div class="container">
+            <h2>Fill in your details to create an account.</h2>
             <form action="#" method="post" autocomplete="off">
                 <input type="text" placeholder="Username" name="username" required/>
                 <input type="email" placeholder="Email Address" name="email" required/>
