@@ -18,7 +18,7 @@
                 <button type="submit">Submit</button>
             </form>
             <br><br>
-            <span>Alternatively, click here to <a href="login.php">login</a>.</span>
+            <h4>Alternatively, click here to <a href="login.php">login</a>.</h4>
         </div>
     </body>
 
