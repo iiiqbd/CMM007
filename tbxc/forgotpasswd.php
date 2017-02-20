@@ -12,7 +12,7 @@
         <div class="container">
             <h3>Request a new password here</h3>
             <h4>Fill in your details</h4>
-            <form method="post" action="login.php">
+            <form method="post" action="resetmessage.php">
                 <input type="text" name="username" placeholder="Username" required><br>
                 <input type="email" name="email" placeholder="abc@xyz.com" required><br>
                 <button type="submit">Submit</button>
