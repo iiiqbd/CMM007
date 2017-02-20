@@ -14,11 +14,11 @@
                 <input type="email" name="email" placeholder="Email Address" required/>
                 <input type="password"name="password" placeholder="Password" required/>
                 <input type="tel" name="phone" placeholder="Mobile Number" required/>
-                <input type="submit" name="submit" value="Sumbit" />
+                <input type="submit" name="submit" value="Submit"/>
                 <input type="reset" name="reset" value="Reset"/>
             </form>
 
-            <h6>Already have an account?<a href="login.php">Click Here</a> to login</h6>
+            <h4>Already have an account?<a href="login.php">Click Here</a> to login</h4>
         </div>
 
     </body>
