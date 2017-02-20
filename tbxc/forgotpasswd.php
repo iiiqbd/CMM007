@@ -24,7 +24,7 @@
 
     <footer>
         <div class="container">
-        <small> >&copy; 2016 MCEv0.3 </small>
+        <small> >&copy; 2017 textbookexchange.com</small>
             </form>
         </div>
     </footer>
