@@ -7,29 +7,18 @@
     </head>
     <body>
 
+        <div class="container">
+            <form action="#" method="post" autocomplete="off">
+                <input type="text" placeholder="Username" name="username" required/>
+                <input type="email" placeholder="Email Address" name="email" required/>
+                <input type="password"placeholder="Password" name="password" required/>
+                <input type="tel" placeholder="Mobile Number" name="phone" required/>
+                <input type="submit" name="submit" value="Sumbit" />
+                <input type="reset" name="reset" value="Reset"/>
+            </form>
 
-        <form id="Sign" action="submit.php" method="post" autocomplete="off">
-            <table>
-                <tr>
-                    <td><input type="text" placeholder="Username" name="username"size="20"autofocus required/></td>
-                </tr>
-
-                <tr>
-                    <td><input type="email" placeholder="Email Address" name="email"size="20" required/></td>
-                </tr>
-
-                <tr>
-                    <td><input type="password"placeholder="Password" name="password"size="25" required/></td>
-                </tr>
-
-                <tr>
-                    <td><input type="tel" placeholder="Mobile Number" name="phone"size="11"required/></td>
-                </tr>
-            </table>
-            <h6>You already have an account?<a href="login.php">Click Here</a></h6>
-            <input type="submit" name="submit" value="Sumbit" />
-            <input type="reset" name="reset" value="Reset"/>
-        </form>
+            <h6>Already have an account?<a href="login.php">Click Here</a> to login</h6>
+        </div>
 
     </body>
 
