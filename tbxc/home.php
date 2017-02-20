@@ -23,4 +23,11 @@ $username=$_SESSION["user"];
             </form>
         </div>
     </body>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2017 textbookexchange.com</p>
+        </div>
+    </footer>
+
 </html>

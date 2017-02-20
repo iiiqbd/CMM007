@@ -19,4 +19,11 @@ session_destroy();
                 <span>Click here to <a href="login.php">login</a> again.</span>
             </div>
     </body>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2017 textbookexchange.com</p>
+        </div>
+    </footer>
+
 </html>
