@@ -21,4 +21,9 @@
             </form>
         </div>
     </body>
+
+    <footer>
+        <small> >&copy; 2016 MCEv0.3 </small>
+    </footer>
+
 </html>
