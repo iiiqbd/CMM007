@@ -10,10 +10,10 @@
         <div class="container">
             <h2>Fill in your details to create an account.</h2>
             <form action="#" method="post" autocomplete="off">
-                <input type="text" placeholder="Username" name="username" required/>
-                <input type="email" placeholder="Email Address" name="email" required/>
-                <input type="password"placeholder="Password" name="password" required/>
-                <input type="tel" placeholder="Mobile Number" name="phone" required/>
+                <input type="text" name="username" placeholder="Username" required/>
+                <input type="email" name="email" placeholder="Email Address" required/>
+                <input type="password"name="password" placeholder="Password" required/>
+                <input type="tel" name="phone" placeholder="Mobile Number" required/>
                 <input type="submit" name="submit" value="Sumbit" />
                 <input type="reset" name="reset" value="Reset"/>
             </form>
