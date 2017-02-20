@@ -15,9 +15,10 @@
             <form method="post">
                 <input id="username" name="username" title="Username"
                         required type="text" placeholder="Username"/>
-                <br></br><br></br>
+                <br></br>
                 <input id="email" name="email" required
                        type="email" placeholder="abc@xyz.com"/>
+                <br></br>
                 <input type="submit" name="submit" value ="Send"/>
             </form>
         </div>
