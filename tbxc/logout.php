@@ -9,7 +9,8 @@ session_destroy();
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Goodbye!</title>
+        <title>Logout</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
     </head>
     <body>
             <h4>Thanks for visiting Textbook Exchange! Goodbye!!</h4>

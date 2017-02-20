@@ -11,13 +11,16 @@ $username=$_SESSION["user"];
     <head>
         <meta charset="UTF-8">
         <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
     </head>
     <body>
-        <form method="get" action="logout.php">
-            <p>Congratulations!</p>
-            <p>You have successfully logged in to the Texbook Exchange Website!</p>
-            <p>We hope you like our site and that you do some business with us.</p>
-            <button type="submit">Logout</button>
-        </form>
+        <div class="container">
+            <form method="get" action="logout.php">
+                <p>Congratulations!</p>
+                <p>You have successfully logged in to the Texbook Exchange Website!</p>
+                <p>We hope you like our site and that you do some business with us.</p>
+                <button type="submit">Logout</button>
+            </form>
+        </div>
     </body>
 </html>
